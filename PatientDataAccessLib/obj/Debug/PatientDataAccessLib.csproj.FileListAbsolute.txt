@@ -1,0 +1,12 @@
+D:\Sachin R-3338\ASP.NET\WEB-APPS\PatientDataAccessLib\bin\Debug\PatientDataAccessLib.dll.config
+D:\Sachin R-3338\ASP.NET\WEB-APPS\PatientDataAccessLib\bin\Debug\PatientDataAccessLib.dll
+D:\Sachin R-3338\ASP.NET\WEB-APPS\PatientDataAccessLib\bin\Debug\PatientDataAccessLib.pdb
+D:\Sachin R-3338\ASP.NET\WEB-APPS\PatientDataAccessLib\bin\Debug\EntityFramework.dll
+D:\Sachin R-3338\ASP.NET\WEB-APPS\PatientDataAccessLib\bin\Debug\EntityFramework.SqlServer.dll
+D:\Sachin R-3338\ASP.NET\WEB-APPS\PatientDataAccessLib\bin\Debug\EntityFramework.xml
+D:\Sachin R-3338\ASP.NET\WEB-APPS\PatientDataAccessLib\bin\Debug\EntityFramework.SqlServer.xml
+D:\Sachin R-3338\ASP.NET\WEB-APPS\PatientDataAccessLib\obj\Debug\PatientDataAccessLib.csprojAssemblyReference.cache
+D:\Sachin R-3338\ASP.NET\WEB-APPS\PatientDataAccessLib\obj\Debug\PatientDataAccessLib.csproj.CoreCompileInputs.cache
+D:\Sachin R-3338\ASP.NET\WEB-APPS\PatientDataAccessLib\obj\Debug\PatientDataAccessLib.csproj.CopyComplete
+D:\Sachin R-3338\ASP.NET\WEB-APPS\PatientDataAccessLib\obj\Debug\PatientDataAccessLib.dll
+D:\Sachin R-3338\ASP.NET\WEB-APPS\PatientDataAccessLib\obj\Debug\PatientDataAccessLib.pdb

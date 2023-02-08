@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PatientDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tblDoctors">
+    <Key>
+      <PropertyRef Name="DoctorId" />
+    </Key>
+    <Property Name="DoctorId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DoctorName" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="Specialization" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblPatient">
+    <Key>
+      <PropertyRef Name="PatientId" />
+    </Key>
+    <Property Name="PatientId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PatientName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="PatientAddress" Type="varchar(max)" Nullable="false" />
+    <Property Name="BillAmount" Type="int" Nullable="false" />
+    <Property Name="DoctorID" Type="int" />
+  </EntityType>
+  <Association Name="FK__tblPatien__Docto__6383C8BA">
+    <End Role="tblDoctors" Type="Self.tblDoctors" Multiplicity="0..1" />
+    <End Role="tblPatient" Type="Self.tblPatient" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblDoctors">
+        <PropertyRef Name="DoctorId" />
+      </Principal>
+      <Dependent Role="tblPatient">
+        <PropertyRef Name="DoctorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPatient_tblPatient">
+    <End Role="tblPatient" Type="Self.tblPatient" Multiplicity="1" />
+    <End Role="tblPatient1" Type="Self.tblPatient" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="tblPatient">
+        <PropertyRef Name="PatientId" />
+      </Principal>
+      <Dependent Role="tblPatient1">
+        <PropertyRef Name="PatientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PatientDataModelStoreContainer">
+    <EntitySet Name="tblDoctors" EntityType="Self.tblDoctors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblPatient" EntityType="Self.tblPatient" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__tblPatien__Docto__6383C8BA" Association="Self.FK__tblPatien__Docto__6383C8BA">
+      <End Role="tblDoctors" EntitySet="tblDoctors" />
+      <End Role="tblPatient" EntitySet="tblPatient" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPatient_tblPatient" Association="Self.FK_tblPatient_tblPatient">
+      <End Role="tblPatient" EntitySet="tblPatient" />
+      <End Role="tblPatient1" EntitySet="tblPatient" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
