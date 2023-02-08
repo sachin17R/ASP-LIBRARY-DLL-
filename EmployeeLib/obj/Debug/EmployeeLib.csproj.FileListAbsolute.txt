@@ -1,0 +1,12 @@
+D:\Sachin R-3338\ASP.NET\WEB-APPS\EmployeeLib\bin\Debug\EmployeeLib.dll.config
+D:\Sachin R-3338\ASP.NET\WEB-APPS\EmployeeLib\bin\Debug\EmployeeLib.dll
+D:\Sachin R-3338\ASP.NET\WEB-APPS\EmployeeLib\bin\Debug\EmployeeLib.pdb
+D:\Sachin R-3338\ASP.NET\WEB-APPS\EmployeeLib\bin\Debug\EntityFramework.dll
+D:\Sachin R-3338\ASP.NET\WEB-APPS\EmployeeLib\bin\Debug\EntityFramework.SqlServer.dll
+D:\Sachin R-3338\ASP.NET\WEB-APPS\EmployeeLib\bin\Debug\EntityFramework.xml
+D:\Sachin R-3338\ASP.NET\WEB-APPS\EmployeeLib\bin\Debug\EntityFramework.SqlServer.xml
+D:\Sachin R-3338\ASP.NET\WEB-APPS\EmployeeLib\obj\Debug\EmployeeLib.csprojAssemblyReference.cache
+D:\Sachin R-3338\ASP.NET\WEB-APPS\EmployeeLib\obj\Debug\EmployeeLib.csproj.CoreCompileInputs.cache
+D:\Sachin R-3338\ASP.NET\WEB-APPS\EmployeeLib\obj\Debug\EmployeeLib.csproj.CopyComplete
+D:\Sachin R-3338\ASP.NET\WEB-APPS\EmployeeLib\obj\Debug\EmployeeLib.dll
+D:\Sachin R-3338\ASP.NET\WEB-APPS\EmployeeLib\obj\Debug\EmployeeLib.pdb
